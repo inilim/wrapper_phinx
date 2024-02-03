@@ -1,0 +1,23 @@
+{
+    "name": "inilim/wrapper_phinx",
+    "description": "wrapper_phinx",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Inilim\\Phinx\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "inilim"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^8.2"
+    },
+    "require-dev": {
+        "phpstan/phpstan": "@stable"
+    }
+}
